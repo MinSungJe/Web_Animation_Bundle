@@ -19,6 +19,6 @@ jsPlayButton.addEventListener('click', () => {
 jsStopButton.addEventListener('click', () => {
   if (jsIntervalId) {
     clearInterval(jsIntervalId);
-    intervalId = null;
+    jsIntervalId = null;
   }
 });
