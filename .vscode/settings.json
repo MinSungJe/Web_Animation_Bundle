@@ -1,0 +1,13 @@
+{
+  // 파일을 저장할 때마다 `eslint` 규칙에 따라 자동으로 코드를 수정
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": "explicit" },
+  // `prettier`를 기본 포맷터로 지정
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // 파일을 저장할 때마다 포매팅 실행
+  "editor.formatOnSave": true,
+
+  "javascript.preferences.importModuleSpecifierEnding": "js", // js로 마무리
+  "javascript.suggest.paths": true, // JavaScript 경로 자동 완성
+  "javascript.preferences.importModuleSpecifier": "relative", // 상대 경로 선호
+  "javascript.preferences.quoteStyle": "single" // single quote
+}
